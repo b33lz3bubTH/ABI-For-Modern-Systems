@@ -87,10 +87,6 @@ func main() {
     fmt.Println("Encrypted Data:", string(encDataJSON))
 
 
-
-	
-
-
     // Step 2: Decrypt the data
     decryptedData, err := decryptionService.DecryptData(encryptedData)
     if err != nil {
